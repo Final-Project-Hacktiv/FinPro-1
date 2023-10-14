@@ -18,6 +18,8 @@ body{
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 .title{
@@ -43,10 +45,28 @@ body{
     font-size: 22px;
 }
 
-.fBaju {
+.orderNow {
+    background-image: url("img/Sepatuku.jpg") ;
+    background-position: center;
+    background-size: cover;
     display: block;
     width: 90%;
     height: 600px;
     margin: auto;
     padding: 20px;
+}
+
+.btnorder{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    background-color: #588157;
+    cursor: pointer;
+    margin: 1px auto;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.btnorder:hover{
+    background-color:#3A5A40;
 }
