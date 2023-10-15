@@ -50,7 +50,7 @@ body{
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     width: 90%;
     height: 600px;
@@ -66,7 +66,7 @@ body{
     cursor: pointer;
     margin: 1px auto;
     border-radius: 20px;
-    margin-top: -10px;
+    /* margin-top: -10px; */
 }
 
 .btnorder:hover{
@@ -115,4 +115,40 @@ body{
 .icon a{
     color: #fff;
     text-decoration: none;
+}
+
+.slide-show {
+    display: flex;
+    align-items: center;
+}
+
+.slide-item {
+    width: 400px;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.next,
+.prev {
+  background-image: url("img/next1.png");
+  width: 57px;
+  height: 93px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.prev {
+  background-image: url("img/prev1.png");
+}
+
+.img {
+    background-image: url("./img/next1.png");
+    width: 100px;
+    height: 100px;
 }
