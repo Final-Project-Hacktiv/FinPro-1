@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2? keluarga= Pasir Hisap:wght@600 &family= Signika & display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+
+.header {
+    background-color:#292643;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.title{
+    color: #fff;
+}
+
+.nav-head{
+    width: 60%;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.orderNow {
+    background-image: url("/img/Sepatuku.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.btnorder{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    background-color: #588157;
+    cursor: pointer;
+    margin: 1px auto;
+    border-radius: 20px;
+    /* margin-top: -10px; */
+}
+
+.btnorder:hover{
+    background-color:#3A5A40;
+}
+
+.footer{
+    background-color:#292643;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin-top: 50px;
+}
+
+.copyright{
+    color: #fff;
+    justify-content: start;
+}
+
+.contact{
+    color: #fff;
+    font-size: 20px;
+    justify-content: start;
+}
+
+.Us{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.socialMedia{
+    color: #fff;
+    font-size: 20px;
+}
+
+.icon a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.slide-show {
+    display: flex;
+    align-items: center;
+}
+
+.slide-item {
+    width: 400px;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.next,
+.prev {
+  background-image: url("/img/next1.png");
+  width: 57px;
+  height: 93px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.prev {
+  background-image: url("/img/prev1.png");
+}
+
+.img {
+    background-image: url("/img/next1.png");
+    width: 100px;
+    height: 100px;
+}

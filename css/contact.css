@@ -45,33 +45,6 @@ body{
     font-size: 22px;
 }
 
-.orderNow {
-    background-image: url("img/Sepatuku.jpg") ;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 600px;
-    margin: auto;
-    padding: 20px;
-}
-
-.btnorder{
-    display: block;
-    padding: 10px;
-    color: #fff;
-    background-color: #588157;
-    cursor: pointer;
-    margin: 1px auto;
-    border-radius: 20px;
-    /* margin-top: -10px; */
-}
-
-.btnorder:hover{
-    background-color:#3A5A40;
-}
 
 .footer{
     background-color:#292643;
@@ -133,22 +106,82 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.next,
-.prev {
-  background-image: url("img/next1.png");
-  width: 57px;
-  height: 93px;
-  border: none;
-  outline: none;
-  background-color: transparent;
-}
+/* contact us style */
+.form-label {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  
+  textarea.form-control {
+    height: 150px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .page .container {
+    padding: 45px;
+    border-radius: 0;
+    left: 50%;
+    top: 50%;
+  }
+  
+  .page .row {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .page .col-md-7 {
+    padding: 20px;
+  }
+  .page .col-md-5 {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #292643;
+    padding: 20px;
+    color: white;
+  }
+  .page .form-control {
+    height: 52px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .page i {
+    font-size: 30px;
+  }
+  .page .d-flex p {
+    cursor: default;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .page .mt-4 .d-flex {
+    transition: transform 0.3s ease-in-out;
+  }
+  .page .mt-4 .d-flex:hover {
+    transform: translateX(10px);
+  }
 
-.prev {
-  background-image: url("img/prev1.png");
-}
-
-.img {
-    background-image: url("./img/next1.png");
-    width: 100px;
-    height: 100px;
-}
+  @media only screen and (max-width: 600px) {
+    .page .container {
+      width: 100%;
+      left: 50%;
+      top: 90%;
+    }
+  }
+  
+  iframe {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+  }
