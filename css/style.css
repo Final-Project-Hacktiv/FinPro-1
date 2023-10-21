@@ -54,7 +54,7 @@ body{
     align-items: center;
     width: 90%;
     height: 600px;
-    margin: auto;
+    margin: 15px auto;
     padding: 20px;
 }
 
@@ -66,7 +66,7 @@ body{
     cursor: pointer;
     margin: 1px auto;
     border-radius: 20px;
-    /* margin-top: -10px; */
+    margin-top: 10px;
 }
 
 .btnorder:hover{
@@ -131,6 +131,8 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    background-size: cover;
 }
 
 .next,
@@ -151,4 +153,49 @@ body{
     background-image: url("/img/next1.png");
     width: 100px;
     height: 100px;
+}
+
+.slideshow{
+    font-size: 46px;
+    font-weight: 600;  
+}
+
+.Library{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.titleLibrary{
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.paragraphLibrary{
+    font-weight: 600;
+}
+
+.container-shoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    margin: 10px;
+}
+
+.libraryItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E4E4E4;
+    box-shadow: 2px 2px 2px 1px rgba(80,80,80,0.5)
+}
+
+.Image{
+    width: 350px;
+    margin: 20px;
+    object-fit: cover;
+    object-position: center;
 }
