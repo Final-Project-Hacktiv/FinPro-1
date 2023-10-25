@@ -45,6 +45,41 @@ body{
     font-size: 22px;
 }
 
+.blog{
+    justify-content: center;
+}
+
+#header{
+    background: url(/img/Banner.jpg) center/cover no-repeat;
+}
+
+#header .row{
+    min-height: 60vh;
+}
+
+.header-content span{
+    font-size: 28px;
+}
+
+.header-content h2{
+    font-size: 60px;
+}
+
+.btn:not(button){
+    background-color: #292643;
+    color:#ffffff;
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid #4D4D4D;
+}
+
+.btn:not(button):hover{
+    background-color: #ECF2FF;
+    color: #292643;
+    border-color: #4D4D4D;
+}
+
+
 .footer{
     background-color:#292643;
     padding: 20px 40px;
@@ -87,20 +122,4 @@ body{
 .icon a{
     color: #fff;
     text-decoration: none;
-}
-
-.slide-show {
-    display: flex;
-    align-items: center;
-}
-
-.slide-item {
-    width: 400px;
-    height: 400px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.6);
 }
