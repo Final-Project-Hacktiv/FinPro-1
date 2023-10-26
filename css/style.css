@@ -53,9 +53,9 @@ body{
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 600px;
-    margin: 15px auto;
-    padding: 20px;
+    height: 120%;
+    margin: 1% auto;
+    padding: 2%;
 }
 
 .btnorder{
@@ -77,6 +77,7 @@ body{
     background-color:#292643;
     padding: 20px 40px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     position: sticky;
     top: 0;
@@ -179,7 +180,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     gap: 5px;
     margin: 10px;
 }
@@ -199,3 +199,60 @@ body{
     object-fit: cover;
     object-position: center;
 }
+
+
+@media screen and (min-width: 500px) {
+    /* Gaya CSS yang akan diterapkan jika lebar layar lebih besar atau sama dengan 768px */
+    .container-shoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    /* Anda dapat menambahkan lebih banyak aturan CSS di sini */
+  }
+
+  .footer{
+    flex-direction: column;
+}
+}
+
+@media screen and (min-width: 768px) {
+    /* Gaya CSS yang akan diterapkan jika lebar layar lebih besar atau sama dengan 768px */
+    .footer{
+        flex-direction: column;
+    }
+    .container-shoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 5px;
+        margin: 10px;
+    /* Anda dapat menambahkan lebih banyak aturan CSS di sini */
+  }
+  .container-shoes.libraryItem{
+    flex-direction: column;
+    }
+    /* Anda dapat menambahkan lebih banyak aturan CSS di sini */
+  }
+
+  @media screen and (min-width: 1200px) {
+    /* Gaya CSS yang akan diterapkan jika lebar layar lebih besar atau sama dengan 768px */
+    .footer{
+        flex-direction: row;
+    }
+
+    .container-shoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 5px;
+        margin: 10px;
+    /* Anda dapat menambahkan lebih banyak aturan CSS di sini */
+  }
+  
+
+  
+    /* Anda dapat menambahkan lebih banyak aturan CSS di sini */
+  }

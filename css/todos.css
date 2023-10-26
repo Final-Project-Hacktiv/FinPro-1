@@ -213,5 +213,23 @@ h1{
     align-items: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.6);
-} 
+}
 
+.footer{
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 768px) {
+    /* Gaya CSS yang akan diterapkan jika lebar layar lebih besar atau sama dengan 768px */
+    .footer{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Gaya CSS yang akan diterapkan jika lebar layar lebih besar atau sama dengan 768px */
+    .footer{
+        flex-direction: row;
+    }
+}
