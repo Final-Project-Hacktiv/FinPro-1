@@ -29,28 +29,19 @@
   </head>
   <body>
     <!-- Navbar -->
-      <header class="header">
-        <h1 class="title">Shoes Footwear</h1>
-        <nav class="nav-head">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="Blogs.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="AboutUs.html">About US</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html">Contact US</a>
-            </li>
-            <li class="nav-item">
-              <a href="todos.html">Todos</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+    <nav class="navbar">
+      <div class="logo">Shoes Footwear</div>
+      <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Blogs.html">Blog</a></li>
+          <li><a href="AboutUs.html">Abouts US</a></li>
+          <li><a href="contact.html">Contact US</a></li>
+          <li><a href="todos.html">Todos</a></li>
+      </ul>
+      <div class="icon" id="menuIcon">
+          <i class="fas fa-bars"></i>
+      </div>
+  </nav>
 
     <!-- Content -->
     <section id="header" class="py-5">
@@ -392,5 +383,6 @@
           </div>
         </div>
       </footer>
+      <script src="js/responsive.js"></script>
   </body>
 </html>
