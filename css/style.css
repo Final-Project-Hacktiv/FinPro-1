@@ -31,9 +31,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    color: #fff;
-    position: sticky;
-    top: 0;
+    color: var(--white-color)
 }
 
 .title {
@@ -49,7 +47,14 @@ body {
     justify-content: space-evenly;
 }
 
-.nav-item {}
+.nav-item {
+    list-style: none;
+}
+.nav-item a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 24px;
+}
 
 .logo {
     font-size: 24px;
@@ -72,9 +77,8 @@ body {
 }
 
 .icon {
-    display: none;
-    font-size: 24px;
     cursor: pointer;
+    color: var(--white-color);
 }
 
 /* Media query for responsiveness */

@@ -5,7 +5,7 @@ class Header extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        <header class="header">
+        <header class="header sticky">
         <h1 class="title">Shoes Footwear</h1>
         <nav class="nav-head">
             <ul class="nav-list">
