@@ -124,6 +124,8 @@ h1{
     align-items: center;
     padding: 20px;
     color: #fff;
+    position: sticky;
+    top: 0;
   }
   
   .logo {

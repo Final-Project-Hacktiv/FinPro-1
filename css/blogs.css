@@ -8,29 +8,20 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
   }
   
   .navbar {
     background-color: #292643;
-=======
-/* navbar lama */
-/* body{
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Signika', sans-serif;
-}
-
-.header {
-    background-color:#292643;
-    padding: 20px;
->>>>>>> 7695ddb19c737e3282e2ccd315f01498669f6551
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   
   .logo {
@@ -50,43 +41,6 @@ body {
   .nav-links a {
     text-decoration: none;
     color: #fff;
-<<<<<<< HEAD
-=======
-    font-size: 22px;
-} */
-
-/* navbar baru */
-body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .navbar {
-    background-color: #292643;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    color: #fff;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-right: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #fff;
->>>>>>> 7695ddb19c737e3282e2ccd315f01498669f6551
   }
   
   .icon {
