@@ -8,7 +8,7 @@ class Header extends HTMLElement {
         <header class="header sticky">
         <h1 class="title">Shoes Footwear</h1>
         <nav class="nav-head">
-            <ul class="nav-list">
+            <ul class="nav-list" id="navLinks">
                 <li class="nav-item">
                     <a href="index.html">Home</a>
                 </li>
@@ -25,6 +25,9 @@ class Header extends HTMLElement {
                     <a href="todos.html">Todos</a>
                 </li>
             </ul>
+            <div class="icon" id="menuIcon">
+            <i class="fas fa-bars"></i>
+        </div>
         </nav>
     </header>
         `
