@@ -116,3 +116,10 @@ btnNext.addEventListener('click', () => {
     showItem(currentIndex);
     autoSlideInterval = setInterval(nextSlide, 3000); // Mulai slide otomatis kembali
 });
+
+const menuIcon = document.getElementById('menuIcon');
+const navLinks = document.getElementById('navLinks');
+
+menuIcon.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
