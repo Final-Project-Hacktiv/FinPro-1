@@ -26,7 +26,7 @@ main {
     background: linear-gradient(#f3eff5, #fef9f3);
     padding: 0px;
     margin: 0;
-
+    min-height: 70vh;
 }
 
 .todoForm {
@@ -116,107 +116,6 @@ h1{
   
 .checked { 
     text-decoration: line-through;
-}
-
-
-.header {
-    background-color:#292643;
-    padding: 13px;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-}
-
-.title{
-    color: #fff;
-}
-
-.nav-head{
-    width: 60%;
-}
-
-.nav-list{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.nav-item{
-    list-style: none;
-}
-
-.nav-item a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 22px;
-} 
-
-/*footer styling*/
-
-.footer{
-    background-color:#292643;
-    padding: 20px 40px;
-    display: flex;
-    text-align: justify;
-    justify-content: space-between;
-    margin-top: 50px;
-    top: 0;
-    position: sticky;
-}
-
-.copyright{
-    color: #fff;
-    justify-content: start;
-}
-
-.contact{
-    color: #fff; 
-    font-size: 20px;
-    justify-content: start;
-}
-
-.Us{
-    color: #fff;
-    font-size: 16px;
-    margin-top: 0px;
-
-}
-
-.follow{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
-
-.socialMedia{
-    color: #fff;
-    font-size: 20px;
-}
-
-.icon a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.slide-show {
-    display: flex;
-    align-items: center;
-}
-
-.slide-item {
-    width: 400px;
-    height: 400px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.footer{
-    flex-direction: column;
 }
 
 

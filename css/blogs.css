@@ -13,44 +13,12 @@ body{
     font-family: 'Signika', sans-serif;
 }
 
-.header {
-    background-color:#292643;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-}
-
-.title{
-    color: #fff;
-}
-
-.nav-head{
-    width: 60%;
-}
-
-.nav-list{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.nav-item{
-    list-style: none;
-}
-
-.nav-item a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 22px;
-}
-
 .blog{
     justify-content: center;
 }
 
 #header{
-    background: url(/img/Banner.jpg) center/cover no-repeat;
+    background: url("/img/Banner.jpg") center/cover no-repeat;
 }
 
 #header .row{
@@ -77,49 +45,4 @@ body{
     background-color: #ECF2FF;
     color: #292643;
     border-color: #4D4D4D;
-}
-
-
-.footer{
-    background-color:#292643;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    margin-top: 50px;
-}
-
-.copyright{
-    color: #fff;
-    justify-content: start;
-}
-
-.contact{
-    color: #fff;
-    font-size: 20px;
-    justify-content: start;
-}
-
-.Us{
-    color: #fff;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.follow{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
-
-.socialMedia{
-    color: #fff;
-    font-size: 20px;
-}
-
-.icon a{
-    color: #fff;
-    text-decoration: none;
 }

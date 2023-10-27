@@ -8,13 +8,24 @@
     box-sizing: border-box;
 }
 
+:root {
+    --white-color : #fff;
+    --bg-blue: #292643;
+}
+
 body{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Signika', sans-serif;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
 .header {
-    background-color:#292643;
+    background-color:var(--bg-blue);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -23,7 +34,7 @@ body{
 }
 
 .title{
-    color: #fff;
+    color: var(--white-color);
 }
 
 .nav-head{
@@ -41,7 +52,7 @@ body{
 
 .nav-item a{
     text-decoration: none;
-    color: #fff;
+    color: var(--white-color);
     font-size: 22px;
 }
 
@@ -61,7 +72,7 @@ body{
 .btnorder{
     display: block;
     padding: 10px;
-    color: #fff;
+    color: var(--white-color);
     background-color: #588157;
     cursor: pointer;
     margin: 1px auto;
@@ -74,7 +85,7 @@ body{
 }
 
 .footer{
-    background-color:#292643;
+    background-color: var(--bg-blue);
     padding: 20px 40px;
     display: flex;
     flex-direction: row;
@@ -85,18 +96,18 @@ body{
 }
 
 .copyright{
-    color: #fff;
+    color: var(--white-color);
     justify-content: start;
 }
 
 .contact{
-    color: #fff;
+    color: var(--white-color);
     font-size: 20px;
     justify-content: start;
 }
 
 .Us{
-    color: #fff;
+    color: var(--white-color);
     font-size: 16px;
     margin-top: 10px;
 }
@@ -109,12 +120,12 @@ body{
 }
 
 .socialMedia{
-    color: #fff;
+    color: var(--white-color);
     font-size: 20px;
 }
 
 .icon a{
-    color: #fff;
+    color: var(--white-color);
     text-decoration: none;
 }
 
@@ -126,7 +137,7 @@ body{
 .slide-item {
     width: 400px;
     height: 400px;
-    color: #fff;
+    color: var(--white-color);
     display: flex;
     justify-content: center;
     align-items: center;
