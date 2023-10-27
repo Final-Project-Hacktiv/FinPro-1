@@ -9,8 +9,7 @@
 }
 
 body{
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Signika', sans-serif;
+    font-family: Arial, sans-serif;
     justify-content: center;
     margin: 0;
     padding: 0px;
@@ -117,7 +116,6 @@ h1{
 .checked { 
     text-decoration: line-through;
 }
-
 
 @media screen and (min-width: 768px) {
     /* Gaya CSS yang akan diterapkan jika lebar layar lebih besar atau sama dengan 768px */
